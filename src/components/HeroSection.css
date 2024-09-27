@@ -1,0 +1,35 @@
+/* src/components/HeroSection.css */
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?agriculture,land');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffdd33;
+  }
+  
