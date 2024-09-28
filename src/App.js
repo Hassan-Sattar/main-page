@@ -1,10 +1,7 @@
-// src/App.js
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import Footer from './components/Footer';
+import Header from './components/Header.js'; // Add .js extension
+import HeroSection from './components/HeroSection.js'; // Add .js extension
+import AboutSection from './components/AboutSection.js'; // Add .js extension
+import Footer from './components/Footer.js'; // Add .js extension
 
 function App() {
   return (

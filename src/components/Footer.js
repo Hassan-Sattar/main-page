@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2024 Corteva Agriscience. All Rights Reserved.</p>
+      <p>&copy; 2024 Welcare Chemical Corporation. All Rights Reserved.</p>
     </footer>
   );
 }

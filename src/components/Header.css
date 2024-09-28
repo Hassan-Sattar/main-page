@@ -3,31 +3,74 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #00468b;
-  }
-  
-  .logo h1 {
+    padding: 25px 30px;
+    background-image: linear-gradient(to right, #0b3e00, #4c8d2e); /* Green gradient */
     color: white;
-    font-size: 28px;
-  }
-  
-  .nav-links {
+    font-family: Arial, sans-serif;
+    height: 90px;
+}
+
+.logo img {
+    height: 140px; /* Adjusted size of the logo */
+    width: auto;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-links {
     display: flex;
     list-style: none;
-  }
-  
-  .nav-links li {
-    margin: 0 15px;
-  }
-  
-  .nav-links a {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+    position: relative; /* Make this relative so the underline animation works properly */
+}
+
+.nav-links a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-  }
-  
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease; /* Smooth transition on color change */
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    transition: width 0.3s ease; /* Smooth transition for underline */
+}
+
+.nav-links a:hover::after {
+    width: 100%; /* Expands the underline when hovered */
+}
+
+.nav-links a:hover {
+    color: #FF9900; /* Change text color on hover (optional) */
+}
+
+.search-icon {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: color 0.3s ease; /* Transition effect for search icon */
+}
+
+.search-icon:hover {
+    color: #FF9900; /* Search icon color changes on hover */
+}

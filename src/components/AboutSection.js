@@ -6,10 +6,9 @@ function AboutSection() {
   return (
     <section className="about" id="about">
       <div className="about-content">
-        <h2>About Corteva</h2>
+        <h2>About Welcare</h2>
         <p>
-          Corteva Agriscience is a major American agricultural chemical and seed company that was the agricultural unit of DowDuPont before being spun off as an independent public company.
-        </p>
+        Welcare is committed to enhancing agricultural practices with innovative solutions that empower farmers and promote sustainable growth. With a focus on quality and efficiency, we strive to deliver products that support the long-term health of both crops and the environment. At Welcare, we believe in fostering strong partnerships with the farming community to ensure a brighter and more productive future for everyone.        </p>
       </div>
     </section>
   );
