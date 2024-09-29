@@ -1,13 +1,10 @@
 // src/pages/WhoWeAre.js
 import React from 'react';
-import Header from '../components/Header'; // Your header component
-import Footer from '../components/Footer'; // Your footer component
 import './WhoWeAre.css'; // Custom styles for this page
 
 function WhoWeAre() {
   return (
     <div>
-      <Header />
       
       <section className="intro-section">
         <div className="container">
@@ -44,7 +41,6 @@ function WhoWeAre() {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 }

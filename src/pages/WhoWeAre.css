@@ -1,0 +1,95 @@
+/* src/pages/WhoWeAre.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Shared section styles */
+section {
+    margin-bottom: 40px; /* Space between each section */
+    border-radius: 8px; /* Optional: gives sections rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow to make each section pop */
+}
+
+.intro-section {
+    padding: 60px 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    text-align: center;
+}
+
+.intro-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #146f00; /* Match your brand's green color */
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Mission Section */
+.mission-section {
+    padding: 60px 20px;
+    background-color: #e0f7e0; /* Light green background */
+    text-align: center;
+}
+
+.mission-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #146f00;
+    margin-bottom: 20px;
+}
+
+.mission-section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Values Section */
+.values-section {
+    padding: 60px 20px;
+    background-color: #f4f4f4; /* Alternate background for contrast */
+    text-align: center;
+}
+
+.values-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #146f00;
+    margin-bottom: 20px;
+}
+
+.values-section ul {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.values-section ul li {
+    padding: 10px;
+    background-color: white; /* White background for each list item */
+    margin-bottom: 10px;
+    border-radius: 8px; /* Rounded corners for list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for list items */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effects */
+}
+
+/* Animation on hover */
+.values-section ul li:hover {
+    transform: translateY(-5px); /* Slightly lifts the item */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increases shadow for a more noticeable effect */
+}
